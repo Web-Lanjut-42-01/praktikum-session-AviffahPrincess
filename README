@@ -1,0 +1,18 @@
+Buatlah database user 
+Database ini memiliki tabel jenis_user yang memiliki isi data
+1. superadmin
+2. admin
+3. user
+
+Lalu buatlah tabel user yang memiliki isi data:
+1. nama => andi, password => 1234, jenis_user => 1 (superadmin)
+2. nama => budi, password => 1234, jenis_user => 2 (admin)
+3. nama => citra, password => 1234, jenis_user => 3 (user)
+
+Jenis_user superadmin dapat mengakses halaman CRUD ADMIN. Jika admin atau user mencoba mengakses halaman CRUD_USER, tampilkan pesan HALAMAN TIDAK BOLEH DIAKSES atau redirect ke form login.
+
+admin dapat mengakses halaman CRUD USER. superadmin juga dapat mengakses halaman CRUD USER, tetapi user, tidak dapat mengakses halaman CRUD USER. 
+
+User biasa hanya mampu mengakses halaman dashboard yang berisi tulisan "SELAMAT DATANG, USER"
+
+
